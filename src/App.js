@@ -29,13 +29,13 @@ function App() {
           <a href='ServicoMoto'>Serviço Moto</a>
         </div>
         <div className="service">
-        <a href='ServicoMoto'>Serviço Carro</a>
+        <a href='ServicoCarro'>Serviço Carro</a>
         </div>
         <div className="service">
-        <a href='ServicoMoto'>Serviço Guincho</a>
+        <a href='ServicoGuincho'>Serviço Guincho</a>
         </div>
         <div className="service">
-        <a href='ServicoMoto'>Fale Conosco</a>
+        <a href='FaleConosco'>Fale Conosco</a>
         </div>
       </section>
 
@@ -44,7 +44,7 @@ function App() {
         <p>Adquira o chip internacional e não perca mais tempo com planos de internet fora do país! Venha fazer parte você também!</p>
       </div>
 
-      
+
 
       <footer className='footer'>
         <p>“A Porto Seguro projeta segurança pensando em você, e lidera o setor de seguros com suas inovações.”</p>
