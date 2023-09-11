@@ -143,7 +143,7 @@ h2 {
 
 /* Estilo para cada serviço */
 .service {
-  flex: 0 0 calc(25% - 10px); /* Tamanho fixo de 45% da largura com espaçamento */
+  flex: 0 0 calc(25% - 10px); /* Tamanho fixo de 25% da largura com espaçamento */
   margin-bottom: 20px;
   padding: 20px;
   background-color: #f3f5ca;
@@ -157,11 +157,17 @@ h2 {
 }
 
 /* Estilo para fazer os serviços ficarem quadrados */
-.service::before {
+.service:before {
   content: "";
   padding-top: 100%;
   display: block;
 }
+
+/* Estilo para dicas da semana */
+
+
+
+
 
 /* Estilização do rodapé */
 .footer {

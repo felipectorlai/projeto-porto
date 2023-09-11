@@ -21,7 +21,7 @@ function App() {
         <button>Blog</button>
       </div>
 
-      <h2 className='subtittles'>Conheça Nossos Serviços</h2>
+      <h2>Conheça Nossos Serviços</h2>
 
       <section className="services">
         <br></br>
@@ -39,8 +39,30 @@ function App() {
         </div>
       </section>
 
+      <div>
+        <h2>Dicas da semana</h2>
+      </div>
+
+    <footer>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br> <br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><div className='Servico Moto'>Servico Moto</div>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+    </footer>
+
       <footer className='footer'>
-        <p>Criado por: Live Tech</p>
+        <p>“A Porto Seguro projeta segurança pensando em você, e lidera o setor de seguros com suas inovações.”</p>
+        <i>Live Tech</i>
       </footer>
     </div>
   );
