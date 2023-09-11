@@ -21,44 +21,30 @@ function App() {
         <button>Blog</button>
       </div>
 
-      <h2>Conheça Nossos Serviços</h2>
+      <h2 className='subtitulos'>Conheça Nossos Serviços</h2>
 
       <section className="services">
         <br></br>
         <div className="service">
-          <h3>Seguro Moto</h3>
+          <a href='ServicoMoto'>Serviço Moto</a>
         </div>
         <div className="service">
-          <h3>Seguro Carro</h3>
+        <a href='ServicoMoto'>Serviço Carro</a>
         </div>
         <div className="service">
-          <h3>Serviço de Guincho</h3>
+        <a href='ServicoMoto'>Serviço Guincho</a>
         </div>
         <div className="service">
-          <h3>Fale Conosco</h3>
+        <a href='ServicoMoto'>Fale Conosco</a>
         </div>
       </section>
 
-      <div>
-        <h2>Dicas da semana</h2>
+      <h2 className='subtitulos'>Dicas da semana</h2>
+      <div className='texto-tips'>
+        <p>Adquira o chip internacional e não perca mais tempo com planos de internet fora do país! Venha fazer parte você também!</p>
       </div>
 
-    <footer>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br> <br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><div className='Servico Moto'>Servico Moto</div>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-      <br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
-    </footer>
+      
 
       <footer className='footer'>
         <p>“A Porto Seguro projeta segurança pensando em você, e lidera o setor de seguros com suas inovações.”</p>

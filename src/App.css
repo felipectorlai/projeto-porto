@@ -68,6 +68,19 @@ h2 {
   padding-left: 20px;
 }
 
+/* Estilo de links */
+a:link {
+  color: #000000;
+  text-decoration: none; /* Remove a sublinhado padrão */
+  font-weight: bold; /* Define a espessura da fonte para negrito */
+  font-size: 20px;
+}
+
+a:hover {
+  color: #000000; /* Cor do link quando o mouse passa por cima */
+  text-decoration: underline; /* Adiciona um sublinhado quando o mouse passa por cima */
+}
+
 /* Estilo da seção de pesquisa */
 .search {
   text-align: right;
@@ -119,6 +132,23 @@ h2 {
   background-color: #0056b3; /* Cor de fundo ao passar o mouse */
 }
 
+/* Estilo para subtitulos da semana */
+.subtitulos {
+  background-color: #011526; /* Cor de fundo verde */
+  color: #ffffff; /* Cor do texto (preto) */
+  padding-left: 10px; /* Espaçamento interno */
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito */
+  width:20%; /* Largura do elemento (ajuste conforme necessário) */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-left: 20px; /* Posiciona no lado esquerdo da tela */
+  margin-bottom: 15px; /* Posição embaixa da tela */
+  margin-top: 15px; /* Posição em cima da tela */
+  border-radius: 10px; /* Bordas curvadas (ajuste conforme necessário) */
+}
 
 /* Estilo da seção de serviços */
 .services {
@@ -164,10 +194,26 @@ h2 {
 }
 
 /* Estilo para dicas da semana */
-
-
-
-
+.texto-tips {
+  background-color: #99e499; /* Cor de fundo verde */
+  padding-left: 10px; /* Espaçamento interno */
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000; /* Cor do texto (preto) */
+  padding: 10px; /* Espaçamento interno */
+  font-size: 16px; /* Tamanho da fonte */
+  font-weight: bold; /* Negrito */
+  width: 50%; /* Largura do elemento (ajuste conforme necessário) */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  margin-left: 20px; /* Posiciona no lado esquerdo da tela */
+  margin-bottom: 15px; /* Posição embaixa da tela */
+  margin-top: 15px; /* Posição em cima da tela */
+  padding-left: 10px; /* Espaçamento interno */
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /* Estilização do rodapé */
 .footer {

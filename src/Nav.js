@@ -6,7 +6,7 @@ export default class Nav extends React.Component {
     render(){
         return(
             <div className='nav'>
-                <AnchorLink href='Servico Moto'>Servico Moto</AnchorLink>
+                <AnchorLink href='#SeguroMoto'>Seguro Moto</AnchorLink>
             </div>
         );
     }
