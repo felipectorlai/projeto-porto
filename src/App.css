@@ -71,7 +71,8 @@ h2 {
 /* Estilo da seção de pesquisa */
 .search {
   text-align: right;
-  padding-bottom: 15px;
+  padding-top: 10;
+  padding-bottom: 10px;
   padding-right: 40px;
 }
 
@@ -162,15 +163,24 @@ h2 {
   display: block;
 }
 
-
-/* Estilo do rodapé */
-footer {
-  font-weight: bold;
+/* Estilização do rodapé */
+.footer {
+  background-color: #011526;
+  color: #fff;
+  padding: 20px 0;
   text-align: center;
-  padding: 10px 0;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
 }
 
 /* Estilo responsivo */
