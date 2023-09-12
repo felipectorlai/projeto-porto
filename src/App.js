@@ -1,6 +1,7 @@
 import React from 'react';
 import CSS from "./App.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import logoImage from './img/porto.png';
 
 function App() {
   return (
@@ -8,6 +9,10 @@ function App() {
       <header>
 
         {/* Aba de pesquisa */}
+        <div className="logo">
+            <img src={logoImage} alt="Logo da sua empresa" />
+        </div>
+        
         <div className="search">
           <input type="text" placeholder="Pesquisar..." />
           <button>Login</button>
