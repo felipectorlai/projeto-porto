@@ -1,9 +1,16 @@
-import React from 'react';
-import CSS from "./App.css"
+import {React, useState} from 'react';
+import CSS from "./App.css";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import logoImage from './img/porto.png';
+import Login from './components/login';
 
 function App() {
+  // Função para redirecionar para outra página
+  function redirecionarParaOutraPagina(url) {
+    // Redireciona para a URL especificada
+    window.location.href = url;
+  }
+
   return (
     <div>
       <header>
@@ -15,15 +22,16 @@ function App() {
         
         <div className="search">
           <input type="text" placeholder="Pesquisar..." />
-          <button>Login</button>
+          <button onClick={() => redirecionarParaOutraPagina("login.jsx")}>Login</button>
         </div>
       </header>
 
       {/* Botões "Sobre nós", "Ajuda" e "Blog" */}
       <div className="buttons">
-        <button>Sobre nós</button>
-        <button>Chat</button>
-        <button>Contato</button>
+        <button onClick={() => redirecionarParaOutraPagina("sobre.jsx")}>Sobre nós</button>
+        <button onClick={() => redirecionarParaOutraPagina("chat.jsx")}>Chat</button>
+        <button onClick={() => redirecionarParaOutraPagina("localiza.jsx")}>Localização</button>
+        <button onClick={() => redirecionarParaOutraPagina("contato.jsx")}>Contato</button>
       </div>
 
       <h2 className='subtitulos'>Conheça Nossos Serviços</h2>
